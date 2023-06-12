@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B8DDBA"
+    android:backgroundTint="#C6EDC7"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="You win!"
+        android:textColor="#2C8F30"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/popup_buttonwin"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:backgroundTint="#448547"
+        android:text="OK"
+        android:textColor="#FBF7F7"
+        android:textSize="16sp" />
+
+</LinearLayout>

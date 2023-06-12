@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D39090"
+    android:backgroundTint="#EFC1C1"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="You lose"
+        android:textColor="#CF2E22"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/popup_buttonlose"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:backgroundTint="#CA3A30"
+        android:text="OK"
+        android:textColor="#FBF7F7"
+        android:textSize="16sp" />
+
+</LinearLayout>
